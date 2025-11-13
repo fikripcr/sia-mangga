@@ -18,5 +18,7 @@ class CreateFirstUser extends Seeder
         $data['email']    = 'gatot'.time().'@pcr.ac.id';
         $data['password'] = Hash::make('gatot');
         User::create($data);
+
+        //ini comment
     }
 }
